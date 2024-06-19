@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "MERN Stack Developer - TCIL-it",
     location: "Chandigarh, India",
     description:
-      "Completed a 3 months course as a mern stack developer with certification from TCIL-it.",
+      "Completed a 3 months course as a mern stack developer with certification from TCIL-IT.",
     icon:  React.createElement(FaReact),
     date: " June-August 2024",
   },
