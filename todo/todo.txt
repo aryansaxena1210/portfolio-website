@@ -1,0 +1,2 @@
+1. contact me sction, submitting the email gives a server error,
+2. downloading resume gives 404
