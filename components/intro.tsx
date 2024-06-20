@@ -74,7 +74,7 @@ const Intro = () => {
                 }}
                 >Contact Me Here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition '/></Link>
                 
-                <a href="/Resume-Aryan-Saxena.pdf" download="Resume_Aryan_Saxena.pdf" className=' group flex items-center justify-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'>Download Resumé <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
+                <a href="/Resume-Aryan-Saxena.pdf" download={true} className=' group flex items-center justify-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'>Download Resumé <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
               
                 <a href="  http://www.linkedin.com/in/aryan-saxena-4a2149176" target="_blank" className='flex txt-gray-700 items-center justify-center gap-2 bg-white p-4 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack hover:text-black-950 dark:bg-white/10 dark:text-white/50'>
                     <BsLinkedin/>
