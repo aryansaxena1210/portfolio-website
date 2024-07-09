@@ -7,16 +7,16 @@ import 'react-vertical-timeline-component/style.min.css';
 import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
-
+import { motion } from 'framer-motion'
 
 const Experience = () => {
 
-    const { ref } = useSectionInView("Experience", 0.8);
+    const { ref } = useSectionInView( "Experience", 0.3 );
 
-    const {theme, toggleTheme} = useTheme();
+    const {theme} = useTheme();
 
     return (
-        <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40" ref={ref}>
+        <motion.section ref = { ref } id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
 
             <SectionHeading>My Experience</SectionHeading>
 
@@ -50,7 +50,7 @@ const Experience = () => {
                 )
                 }
             </VerticalTimeline>
-        </section>
+        </motion.section>
     )
 }
 

@@ -1,10 +1,8 @@
 "use client" 
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import SectionHeading from './section-heading'
 import Project from './project'
 import { projectsData } from '@/lib/data'
-import { useInView } from 'react-intersection-observer'
-import { useActiveSectionContext } from '@/context/active-section-context'
 import { useSectionInView } from '@/lib/hooks'
 
 const Projects = () => {
