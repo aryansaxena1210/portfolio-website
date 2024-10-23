@@ -58,7 +58,7 @@ const Intro = () => {
                     <span className="font-bold"> Aryan.</span> I'm a student located in {" "}
                     <span className='font-bold'>Ames, Iowa</span>, and I am majoring in {" "}
                     <span className="font-bold">Computer Science. </span>
-                    I would love for you reach out to me!
+                    I would love for you to reach out to me!
                 </motion.h1>
             </div>
 
